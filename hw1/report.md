@@ -14,7 +14,7 @@ $$u(x, y) = 5*x + 10*y$$
 
 ### Результаты измерений
 
-| N | Threads | Time, sec ($$mean \pm 2*std$$) | Block size | Acceleration |
+| N | Threads | Time, sec $$(mean \pm 2*std)$$ | Block size | Acceleration |
 | - | - | - | - | - |
 | 300 | 1 | $$8.38 \pm 0.7$$ | 1 | 1.0 |
 | 300 | 4 | $$7.2 \pm 0.03$$ | 1 | 1.16 |
@@ -28,7 +28,7 @@ $$u(x, y) = 5*x + 10*y$$
 
 Среднее улучшение при 8 потоках составило:  **1.43** 
 
-| N | Threads | Time, sec ($ mean \pm 2*std $) | Block size | Acceleration |
+| N | Threads | Time, sec $$(mean \pm 2*std)$$ | Block size | Acceleration |
 | - | - | - | - | - |
 | 500 | 1 | $$13.69 \pm 1.76$$ | 1 | 1.0 |
 | 500 | 4 | $$6.99 \pm 0.12$$ | 1 | 1.96 |
@@ -42,7 +42,7 @@ $$u(x, y) = 5*x + 10*y$$
 
 Среднее улучшение при 8 потоках составило:  **2.33** 
 
-| N | Threads | Time, sec ($ mean \pm 2*std $) | Block size | Acceleration |
+| N | Threads | Time, sec $$(mean \pm 2*std)$$ | Block size | Acceleration |
 | - | - | - | - | - |
 | 1000 | 1 | $$26.99 \pm 0.37$$ | 1 | 1.0 |
 | 1000 | 4 | $$7.49 \pm 0.07$$ | 1 | 3.6 |
