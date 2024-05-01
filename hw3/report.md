@@ -24,13 +24,11 @@
 
 Сжатие проводилось на изображении геометрических фигур (1280 × 905 пикселей), изображении копатыча (1280 × 720 пикселей) и жизненной картинке (604 × 604 пикселей)
 
-Первое изображение сжали в 3 раза, второе в 5, третье в 2 рааз. Сравним результаты, полученные разными алгоритмами:
-
-| Исходное изображение | NumPy | Simple | Advanced |
-|---|---|---|---|
-| <img src="images/figures.bmp" width="200"> | <img src="images/figures_numpy_3.bmp" width="4500"> | <img src="images/figures_simple_3.bmp" width="4500"> | <img src="images/figures_advanced_3.bmp" width="2800"> |
-| ![0](images/kopatich.bmp) | ![1](images/kopatich_numpy_5.bmp) | ![2](images/kopatich_simple_5.bmp) | ![3](images/kopatich_advanced_5.bmp) |
-![0](images/meme.bmp) | ![1](images/meme_numpy_2.bmp) | ![2](images/meme_simple_2.bmp) | ![3](images/meme_advanced_2.bmp) |
+| Исходное изображение | NumPy | Simple | Advanced | Степень сжатия
+|---|---|---|---|---|
+| <img src="images/figures.bmp" width="200"> | <img src="images/figures_numpy_3.bmp" width="4500"> | <img src="images/figures_simple_3.bmp" width="4500"> | <img src="images/figures_advanced_3.bmp" width="2800"> | x3 |
+| ![0](images/kopatich.bmp) | ![1](images/kopatich_numpy_5.bmp) | ![2](images/kopatich_simple_5.bmp) | ![3](images/kopatich_advanced_5.bmp) | x5 |
+![0](images/meme.bmp) | ![1](images/meme_numpy_2.bmp) | ![2](images/meme_simple_2.bmp) | ![3](images/meme_advanced_2.bmp) | x2 |
 
 ### Результаты
 
